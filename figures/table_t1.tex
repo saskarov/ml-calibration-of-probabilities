@@ -1,0 +1,21 @@
+\begin{tabular}{lllccccc}
+\toprule
+Dataset & Model & Method & Accuracy & Log-loss & Brier score & ECE & ROC AUC \\
+\midrule
+Spambase & LR & Uncalibrated & 0.9205 $\pm$ 0.0067 & 0.2485 $\pm$ 0.0232 & 0.0639 $\pm$ 0.0041 & 0.0349 $\pm$ 0.0051 & 0.9674 $\pm$ 0.0045 \\
+Spambase & LR & Platt & 0.9178 $\pm$ 0.0074 & 0.2481 $\pm$ 0.0178 & 0.0660 $\pm$ 0.0033 & 0.0413 $\pm$ 0.0085 & 0.9674 $\pm$ 0.0045 \\
+Spambase & LR & Isotonic & 0.9213 $\pm$ 0.0066 & 0.3006 $\pm$ 0.0733 & 0.0623 $\pm$ 0.0042 & 0.0227 $\pm$ 0.0047 & 0.9660 $\pm$ 0.0049 \\
+\addlinespace
+Spambase & RF & Uncalibrated & 0.9455 $\pm$ 0.0081 & 0.1726 $\pm$ 0.0143 & 0.0451 $\pm$ 0.0040 & 0.0533 $\pm$ 0.0101 & 0.9832 $\pm$ 0.0044 \\
+Spambase & RF & Platt & 0.9457 $\pm$ 0.0084 & 0.1544 $\pm$ 0.0199 & 0.0407 $\pm$ 0.0042 & 0.0195 $\pm$ 0.0058 & 0.9832 $\pm$ 0.0044 \\
+Spambase & RF & Isotonic & 0.9458 $\pm$ 0.0089 & 0.2035 $\pm$ 0.0778 & 0.0412 $\pm$ 0.0045 & 0.0170 $\pm$ 0.0063 & 0.9823 $\pm$ 0.0052 \\
+\midrule
+Adult & LR & Uncalibrated & 0.8481 $\pm$ 0.0033 & 0.3253 $\pm$ 0.0041 & 0.1041 $\pm$ 0.0016 & 0.0109 $\pm$ 0.0031 & 0.9051 $\pm$ 0.0026 \\
+Adult & LR & Platt & 0.8479 $\pm$ 0.0034 & 0.3253 $\pm$ 0.0041 & 0.1040 $\pm$ 0.0015 & 0.0110 $\pm$ 0.0031 & 0.9051 $\pm$ 0.0026 \\
+Adult & LR & Isotonic & 0.8483 $\pm$ 0.0034 & 0.3292 $\pm$ 0.0046 & 0.1043 $\pm$ 0.0014 & 0.0109 $\pm$ 0.0039 & 0.9046 $\pm$ 0.0024 \\
+\addlinespace
+Adult & RF & Uncalibrated & 0.8618 $\pm$ 0.0039 & 0.3106 $\pm$ 0.0047 & 0.0979 $\pm$ 0.0019 & 0.0244 $\pm$ 0.0043 & 0.9158 $\pm$ 0.0034 \\
+Adult & RF & Platt & 0.8619 $\pm$ 0.0046 & 0.3064 $\pm$ 0.0056 & 0.0970 $\pm$ 0.0022 & 0.0119 $\pm$ 0.0041 & 0.9158 $\pm$ 0.0034 \\
+Adult & RF & Isotonic & 0.8609 $\pm$ 0.0043 & 0.3131 $\pm$ 0.0120 & 0.0971 $\pm$ 0.0021 & 0.0103 $\pm$ 0.0028 & 0.9153 $\pm$ 0.0035 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,27 @@
+# Cached dataset downloads
+data/
+
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX build files (report/report.pdf is committed)
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Course materials (not ours to redistribute)
+lectures/
+
+# Local assistant instructions
+CLAUDE.md

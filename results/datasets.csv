@@ -1,0 +1,3 @@
+dataset,openml_version,n_raw,n_rows_with_missing,n_rows,n_features,n_numeric,n_categorical,n_encoded,n_pos,pos_share,n_duplicate_rows
+spambase,1,4601,0,4601,57,57,0,57,1813,0.39404477287546186,394
+adult,2,48842,3620,45222,14,6,8,104,11208,0.2478439697492371,52

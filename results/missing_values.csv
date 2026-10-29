@@ -1,0 +1,4 @@
+dataset,column,n_missing,share
+adult,workclass,2799,0.05730723557593874
+adult,occupation,2809,0.05751197739650301
+adult,native-country,857,0.017546374022357807
