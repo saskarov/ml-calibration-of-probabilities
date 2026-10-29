@@ -1,0 +1,10 @@
+# Direct dependencies, pinned to the versions the results were produced with.
+# (A full `pip freeze` is not used: it includes Windows-only packages such as pywin32.)
+numpy==2.5.4
+pandas==3.1.0
+scikit-learn==1.9.1
+matplotlib==3.11.2
+jupyter==1.1.1
+nbconvert==7.17.2
+ipykernel==7.4.0
+pytest==9.2.0
